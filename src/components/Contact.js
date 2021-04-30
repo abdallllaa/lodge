@@ -2,7 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Contact = () => {
-  return <h4>contact section</h4>
+  return<Wrapper className="section-center">
+    <h3>join our newletter and get 20% off </h3>
+    <div className="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tecum optime, deinde etiam cum mediocri amico. Ad quorum et cognitionem et usum iam corroborati natura ipsa praeeunte deducimur. Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Maximus dolor, inquit, brevis est. Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Quamvis enim depravatae non sint, pravae tamen esse possunt. Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur.
+</p>
+<form className="conect-form"> 
+<input type="email" className="form-input"/>
+<button type="submit" className="submit-btn">subscribe</button>
+</form>
+
+    </div>
+  </Wrapper>
 }
 const Wrapper = styled.section`
   padding: 5rem 0;
